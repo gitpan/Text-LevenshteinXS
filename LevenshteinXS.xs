@@ -20,8 +20,8 @@ int levenshtein_distance(char *s,char*t)
 /*Compute levenshtein distance between s and t*/
 {
   //Step 1
-  if (strcmp(s,t) == 0) {return 0;}
   int k,i,j,n,m,cost,*d,distance;
+  if (strcmp(s,t) == 0) {return 0;}
   n=strlen(s); 
   m=strlen(t);
   if(n==0) {return m;}
