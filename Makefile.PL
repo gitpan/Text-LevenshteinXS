@@ -7,6 +7,6 @@ WriteMakefile(
     'PREREQ_PM'         => { Test },
     ($] >= 5.005 ? () : (
        ABSTRACT_FROM 	=> 'LevenshteinXS.pm', 
-       AUTHOR     	=> 'Dree Mistrut <dree@friul.it>' 
+       AUTHOR     	=> 'Dree Mistrut <dree@friul.it> and Josh Goldberg <josh@3io.com>' 
     )),
 );
