@@ -1,5 +1,8 @@
 Revision history for Perl extension Text::LevenshteinXS.
 
+0.04 Thu May 16 09:27:11 2013
+    - apply Sven Schoradt patch for bug 36685
+
 0.03  Tue Jun 29 14:42:00 2004
 	- move variable declaration to fix SGI compile error.
 
